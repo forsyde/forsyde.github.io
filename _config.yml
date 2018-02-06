@@ -6,11 +6,7 @@ theme: jekyll-theme-slate
 customNavBar: false
 
 ## google analytics
-google_analytics: true
-
-analytics:
-  account:
-  domain:
+google_analytics: UA-113668562-1
 
 ## paths to exclude from the site generation
 exclude: [docs]
