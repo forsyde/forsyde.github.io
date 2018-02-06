@@ -1,0 +1,16 @@
+name: ForSyDe
+description: A Methodology for Formal System Design
+theme: jekyll-theme-slate
+
+## set this to true to replace the generated header navbar by _includes/navbar.html
+customNavBar: false
+
+## google analytics
+google_analytics: true
+
+analytics:
+  account:
+  domain:
+
+## paths to exclude from the site generation
+exclude: [docs]
