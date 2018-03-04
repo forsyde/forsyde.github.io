@@ -9,4 +9,4 @@ customNavBar: false
 google_analytics: UA-113668562-1
 
 ## paths to exclude from the site generation
-exclude: [docs]
+exclude: [docs, Gemfile.lock, Gemfile, jekyll-theme-slate.gemspec]
