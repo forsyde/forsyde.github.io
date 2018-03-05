@@ -162,3 +162,17 @@ img.centered {
   top: unset;
   right: unset;
 }
+
+html, body {
+  height: 100%;
+}
+div#main_content_wrap {
+  min-height: 60%;
+  height: auto !important; /*min-height hack*/
+  height: 60%;            /*min-height hack*/
+  margin-bottom: -1px;     /*Negates #push on longer pages*/
+}
+
+div#footer_wrap, #push {
+  height: 1px;
+}
