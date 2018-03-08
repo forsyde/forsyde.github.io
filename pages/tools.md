@@ -5,7 +5,7 @@ permalink: tools.html
 top-navbar: true
 forsyde-shallow-url: https://github.com/forsyde/forsyde-shallow
 forsyde-atom-url: https://github.com/forsyde/forsyde-atom
-forsyde-systemc-url: https://github.com/forsyde/ForSyDe-SystemC
+forsyde-systemc-url: https://forsyde.github.io/ForSyDe-SystemC
 forsyde-gpac-url: https://github.com/forsyde/reactive-gpac
 desyde-url: https://github.com/forsyde/DeSyDe
 f2sdf3-url: https://github.com/forsyde/f2sdf3
