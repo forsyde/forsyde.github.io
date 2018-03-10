@@ -1,13 +1,10 @@
 name: ForSyDe
 description: A Methodology for Formal System Design
 
-## uncomment when importing the theme
 remote_theme: forsyde/forsyde-web-theme
 
-## paths to exclude from the site generation
-exclude: [scripts, Gemfile.lock, Gemfile]
+exclude: [scripts, Gemfile.lock, Gemfile, README.md]
 
-## uncomment the line below when on a project page
 plugins:
 - jekyll-seo-tag
 - jekyll-remote-theme
