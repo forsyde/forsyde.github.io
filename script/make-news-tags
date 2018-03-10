@@ -1,10 +1,11 @@
 #!/bin/bash
 
 ROOTPATH="$( cd "$(dirname "$0")" ; pwd -P )/.."
+NEWSPATH=$ROOTPATH/pages/news
 
-rm -f $ROOTPATH/pages/tags/*
+rm -f $NEWSPATH/*
 
-tags=$(grep 'tags:' $ROOTPATH/_posts/*.md | cut -f2- -d: | sed 's/[,\[]//g' | sed 's/\]//g')
+tags=$(grep 'tags:' $ROOTPATH/_posts/*.md | sed 's/^.*: //' | sed 's/[,\[]//g' |  sed 's/\]//g' )
 
 unique=$(echo -e "${tags// /\\n}" | sort -u)
 
@@ -14,11 +15,10 @@ for tag in $unique; do
 title: News
 tagName: $tag
 search: exclude
-permalink: tag_$tag.html
-folder: tags
+permalink: news/$tag.html
 layout: default
 hide: true
 ---
 {% include taglogic.html %}
-" > $ROOTPATH/pages/tags/tag_$tag.html
+" > $NEWSPATH/$tag.html
 done

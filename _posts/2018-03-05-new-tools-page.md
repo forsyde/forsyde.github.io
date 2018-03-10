@@ -1,7 +1,7 @@
 ---
 title:  "New tools page"
 published: true
-permalink: 2018-03-05-new-tools-page.html
+permalink: news/2018-03-05-new-tools-page.html
 layout: default
 summary: "The tools web page has been published."
 tags: [announcements]

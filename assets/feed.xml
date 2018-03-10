@@ -2,6 +2,7 @@
 search: exclude
 layout: none
 hide: true
+permalink: feed.xml
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
