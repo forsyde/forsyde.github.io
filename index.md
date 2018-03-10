@@ -16,7 +16,7 @@ ForSyDe models can be an entry point to different design flows among them:
  * Y-chart-based system synthesis.
  * GPGPU software synthesis.
 	
-Visit the [Projects](projects.html) page for a glimpse of the current active developlent.
+Visit the [Projects](tools.html) page for a glimpse of the current active developlent.
 	
 # The ForSyDe Methodology
 
