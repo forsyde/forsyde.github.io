@@ -1,12 +1,14 @@
 name: ForSyDe
 description: A Methodology for Formal System Design
-theme: jekyll-theme-slate
 
-## set this to true to replace the generated header navbar by _includes/navbar.html
-customNavBar: false
-
-## google analytics
-google_analytics: UA-113668562-1
+## uncomment when importing the theme
+remote_theme: forsyde/forsyde-web-theme
 
 ## paths to exclude from the site generation
-exclude: [docs, Gemfile.lock, Gemfile, jekyll-theme-slate.gemspec]
+exclude: [scripts, Gemfile.lock, Gemfile]
+
+## uncomment the line below when on a project page
+plugins:
+- jekyll-seo-tag
+- jekyll-remote-theme
+- jekyll-sitemap
