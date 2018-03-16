@@ -3,17 +3,17 @@ title: Projects
 layout: default
 permalink: tools.html
 top-navbar: true
-forsyde-shallow-url: https://github.com/forsyde/forsyde-shallow
-forsyde-atom-url: https://github.com/forsyde/forsyde-atom
-forsyde-systemc-url: https://forsyde.github.io/ForSyDe-SystemC
-forsyde-gpac-url: https://github.com/forsyde/reactive-gpac
-desyde-url: https://github.com/forsyde/DeSyDe
-f2sdf3-url: https://github.com/forsyde/f2sdf3
-forsyde-deep-url: https://github.com/forsyde/forsyde-deep
-f2cc-url: https://github.com/forsyde/f2cc
-forsyde-latex-url: https://forsyde.github.io/forsyde-latex
-f2dot-url: https://github.com/forsyde/f2dot/wiki
-forsyde-eclipse-url: https://github.com/forsyde/ForSyDe-Eclipse
+forsyde-shallow-url:	https://github.com/forsyde/forsyde-shallow
+forsyde-atom-url:		https://forsyde.github.io/forsyde-atom
+forsyde-systemc-url:	https://forsyde.github.io/ForSyDe-SystemC
+forsyde-gpac-url:		https://github.com/forsyde/reactive-gpac
+desyde-url:				https://github.com/forsyde/DeSyDe
+f2sdf3-url:				https://github.com/forsyde/f2sdf3
+forsyde-deep-url:		https://github.com/forsyde/forsyde-deep
+f2cc-url:				https://github.com/forsyde/f2cc
+forsyde-latex-url:		https://forsyde.github.io/forsyde-latex
+f2dot-url:				https://github.com/forsyde/f2dot/wiki
+forsyde-eclipse-url:	https://github.com/forsyde/ForSyDe-Eclipse
 ---
 
 # The ForSyDe Ecosystem
