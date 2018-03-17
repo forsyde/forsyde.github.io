@@ -3,6 +3,7 @@ title:  "ForSyDe-Atom tool page"
 published: true
 permalink: news/2018-03-17-forsyde-systemc-page.html
 layout: default
+date: 2018-03-17 12:00:00 +01:00
 summary: "A new web page for the ForSyDe-Atom project."
 tags: [announcements]
 ---
