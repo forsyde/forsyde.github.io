@@ -1,30 +1,66 @@
 ---
 layout: default
 title: ForSyDe
-description: Simple documentation template for Github pages
+description: Formal System Design Homepage
 isHome: true
 ---
 # Overview
 
-ForSyDe (**For**mal **Sy**stem **De**sign) is a methodology with a formal basis for modeling and design of heterogeneous embedded and cyber-physical systems. It is supported by a set of tools, modeling libraries, and related documentation. ForSyDe uses the theory of models of computation (MoCs) for capturing heterogeneity formally. 
+ForSyDe is a methodology with a formal basis for modeling and design of heterogeneous systems-on-chip and cyber-physical systems that has been developed with the following objectives:
 
-ForSyDe models can be an entry point to different design flows among them:
+ * System design must start at a high level of abstraction. The designer shall focus on functionality, and low-level implementation details shall not be an issue at the design stage;
+ * Design methodology must give a solid base for the incorporation of formal methods. This means that verification must be a first class citizen _from the start_;
+ * Abstraction gap between specification and implementation must be bridged by formal refinement techniques.
+ 
+Visit the [Projects](tools.html) and [Publications](publications.html) pages for a glimpse of our activities.
+ 
+## Our Name
 
- * design space exploration based on constraint programming.
- * transformational design refinement.
- * refinement by replacement using the concept of co-simulation wrappers.
- * Y-chart-based system synthesis.
- * GPGPU software synthesis.
+ForSyDe is officially an acronym for **For**mal **Sy**stem **De**sign.
+
+ForSyDe also resembles with the word _foresight_. According to the [Merriam-Webster](https://www.merriam-webster.com/dictionary/foresight) dictionary
+
+> **foresight** noun  
+> [fore·​sight] ; [\ˈfȯr-ˌsīt\]
+>
+> Definition of _foresight_ 
+>
+> 1. an act or the power of foreseeing : prescience   
+>    _Through foresight she could tell what the outcome would be._
+>
+> 2. provident care : prudence  
+>    _had the foresight to invest his money wisely_
+>
+> 3. an act of looking forward  
+>    also : a view forward
+
+This definition captures the essence of our vision: formal design should pave a clear way towards a correct implementation. Through a formal model a designer can thus _foresee_ the desired system realization. This is also the story behind our logo.
+
+<p align="center">
+	<img src="/assets/images/forsyde-logo.svg">
+</p>
+
 	
-Visit the [Projects](tools.html) page for a glimpse of the current active developlent.
-	
-# The ForSyDe Methodology
+## Our Vision
 
-The ForSyDe methodology has been developed with the objective to move system design (i.e. System on Chip, Hardware and Software systems) to a higher level of abstraction and to bridge the abstraction gap by transformational design refinement.
+ForSyDe envisions a correct-by-construction design flow by combining:
 
-ForSyDe is based on carefully selected formal foundations. First, the designer must supply a initial specification model, which
+ * Modelling framework based on theory of models of computation;
+ * Predictable platforms providing guarantees for extra functional properties.
 
- * Can mix different Models of Computation (MoCs) i.e. Synchronous MoC, Untimed MoC ...
- * Is modelled by a network of processes interconnected by signals. Each process is created by a process constructor, allowing to separate communication and computation. 
+The design flow can be sketched as below:
 
-**This page is under construction...**
+<p align="center">
+	<img src="/assets/images/forsyde-design-flow.svg">
+</p>
+
+The key components of the design flow are:
+
+ * **Formally analysable application** models based on a formal foundation to enable formal analysis and reasoning;
+ * **Predictable platforms** providing service guarantees;
+ * **Analysis methods** enabling powerful design tools;
+ * **Design entry language** based on the formal foundation enabling
+   - Simulation of the application model;
+   - Automatic abstraction of formal analysable model.
+
+Visit the [Tools](tools.html) page for our current portfolio of tools supporting this design process and links to further documentation.
