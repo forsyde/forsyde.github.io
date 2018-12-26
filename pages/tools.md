@@ -3,7 +3,7 @@ title: Projects
 layout: default
 permalink: tools.html
 top-navbar: true
-forsyde-shallow-url:	https://github.com/forsyde/forsyde-shallow
+forsyde-shallow-url:	https://forsyde.github.io/forsyde-shallow
 forsyde-atom-url:		https://forsyde.github.io/forsyde-atom
 forsyde-systemc-url:	https://forsyde.github.io/ForSyDe-SystemC
 forsyde-gpac-url:		https://github.com/forsyde/reactive-gpac

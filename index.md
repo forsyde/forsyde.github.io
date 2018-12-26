@@ -4,6 +4,11 @@ title: ForSyDe
 description: Formal System Design Homepage
 isHome: true
 ---
+
+<p align="center">
+	<img width="350px" src="/assets/images/forsyde-logo.svg">
+</p>
+
 # Overview
 
 ForSyDe is a methodology with a formal basis for modeling and design of heterogeneous systems-on-chip and cyber-physical systems that has been developed with the following objectives:
@@ -21,7 +26,7 @@ ForSyDe is officially an acronym for **For**mal **Sy**stem **De**sign.
 ForSyDe also resembles with the word _foresight_. According to the [Merriam-Webster](https://www.merriam-webster.com/dictionary/foresight) dictionary
 
 > **foresight** noun  
-> [fore·​sight] ; [\ˈfȯr-ˌsīt\]
+> fore·​sight ; \ˈfȯr-ˌsīt\
 >
 > Definition of _foresight_ 
 >
@@ -35,11 +40,6 @@ ForSyDe also resembles with the word _foresight_. According to the [Merriam-Webs
 >    also : a view forward
 
 This definition captures the essence of our vision: formal design should pave a clear way towards a correct implementation. Through a formal model a designer can thus _foresee_ the desired system realization. This is also the story behind our logo.
-
-<p align="center">
-	<img src="/assets/images/forsyde-logo.svg">
-</p>
-
 	
 ## Our Vision
 
