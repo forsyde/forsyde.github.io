@@ -63,4 +63,12 @@ The key components of the design flow are:
    - Simulation of the application model;
    - Automatic abstraction of formal analysable model.
 
-Visit the [Tools](tools.html) page for our current portfolio of tools supporting this design process and links to further documentation.
+# Tools
+
+Visit the [Tools](tools) page for our current portfolio of tools supporting this design process and links to further documentation, and our [GitHub organization page](https://github.com/forsyde) for a list with all projects published under the ForSyDe umbrella. Among them we highlight:
+
+* [ForSyDe-Shallow](forsyde-shallow): a shallow-EDSL capturing the main modeling concepts of ForSyDe.
+* [ForSyDe-Deep](forsyde-deep): a deep-embedded EDSL which can synthesize a subset of ForSyDe models down to VHDL.
+* [ForSyDe-Atom](forsyde-atom): a shallow-EDSL which extends the ForSyDe modeling scope with concepts like "layers" and "atoms".
+* [ForSyDe-SystemC](ForSyDe-SystemC): is the SystemC embedding of ForSyDe, which uses the host language for both simulation, structure parsing and C code extraction.
+* [DeSyDe](https://github.com/forsyde/DeSyDe) is a design space exploration tool based on constraint programming which is the central component of the ForSyDe design flow.

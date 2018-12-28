@@ -9,7 +9,7 @@ forsyde-systemc-url:	https://forsyde.github.io/ForSyDe-SystemC
 forsyde-gpac-url:		https://github.com/forsyde/reactive-gpac
 desyde-url:				https://github.com/forsyde/DeSyDe
 f2sdf3-url:				https://github.com/forsyde/f2sdf3
-forsyde-deep-url:		https://github.com/forsyde/forsyde-deep
+forsyde-deep-url:		https://forsyde.github.io/forsyde-deep
 f2cc-url:				https://github.com/forsyde/f2cc
 forsyde-latex-url:		https://forsyde.github.io/forsyde-latex
 f2dot-url:				https://github.com/forsyde/f2dot/wiki

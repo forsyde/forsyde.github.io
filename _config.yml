@@ -6,15 +6,15 @@ remote_theme: forsyde/forsyde-web-theme
 exclude: [scripts, Gemfile.lock, Gemfile, README.md]
 
 ## Useful links
-shortcuts:
- - name: Modeling Tools
-   url: https://forsyde.github.io/tools.html#modeling--simulation
- - name: DSE Tools
-   url: https://forsyde.github.io/tools.html#transformation--design-space-exploration
- - name: Synthesis Tools
-   url: https://forsyde.github.io/tools.html#synthesis--compilation
- - name: UI & Viz Tools
-   url: https://forsyde.github.io/tools.html#visualization--user-interface
+# shortcuts:
+#  - name: Modeling Tools
+#    url: https://forsyde.github.io/tools.html#modeling--simulation
+#  - name: DSE Tools
+#    url: https://forsyde.github.io/tools.html#transformation--design-space-exploration
+#  - name: Synthesis Tools
+#    url: https://forsyde.github.io/tools.html#synthesis--compilation
+#  - name: UI & Viz Tools
+#    url: https://forsyde.github.io/tools.html#visualization--user-interface
 
 
 plugins:
