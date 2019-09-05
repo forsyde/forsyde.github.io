@@ -40,14 +40,16 @@ Like its parent project, it is implemented as a shallow-embedded domain specific
 #### [ForSyDe-SystemC]({{ page.forsyde-systemc-url }})
 
 <!-- <a href="https://travis-ci.org/forsyde/forsyde-atom"><img src="https://travis-ci.org/forsyde/forsyde-atom.svg?branch=master" alt="Build status"></a>&emsp; --> 
-<a href="https://github.com/forsyde/ForSyDe-SystemC"><img src="/assets/images/on-hold.svg" alt="Development status"></a> 
+<a href="https://github.com/forsyde/ForSyDe-SystemC"><img src="/assets/images/active.svg" alt="Development status"></a> 
 
 [ForSyDe-SystemC]({{ page.forsyde-systemc-url }}) is another modeling framework for heterogeneous systems based on the theory of MoCs. Apart from using the host language for simulation purpose, it uses the concept of *introspection* to dump structural data into an intermediate representation which can be fed to DSE and synthesis tools. It is implemented as a shallow-embedded domain specific language (EDSL) in the IEEE standard language [SystemC](http://www.accellera.org/downloads/standards/systemc) and is shipped as a set of C++ [header libraries](https://github.com/forsyde/ForSyDe-Systemc) and [demonstrators](https://github.com/forsyde/forsyde-systemc-demonstrators).
+
+Currently the [ForSyDe-SystemC]({{ page.forsyde-systemc-url }}) framework and associated tools are developed under the supervision of [Seyed-Hosein Attarzadeh-Niaki](http://facultymembers.sbu.ac.ir/attarzadeh/) at Shahid Beheshti University, Iran. Information on the ForSyDe web site may be lagging behind current development, so please check Hosein's [homepage](http://facultymembers.sbu.ac.ir/attarzadeh/) for the latest news.
 
 #### [Reactive GPAC]({{ page.forsyde-gpac-url }})
 
 <!-- <a href="https://travis-ci.org/forsyde/forsyde-atom"><img src="https://travis-ci.org/forsyde/forsyde-atom.svg?branch=master" alt="Build status"></a>&emsp; --> 
-<a href="https://github.com/forsyde/reactive-gpac"><img src="/assets/images/active.svg" alt="Development status"></a> 
+<a href="https://github.com/forsyde/reactive-gpac"><img src="/assets/images/on-hold.svg" alt="Development status"></a> 
 
 [Reactive GPAC]({{ page.forsyde-gpac-url }}) is the newest addition to the ForSyDe ecosystem. Inspired from [functional reactive programming](https://en.wikipedia.org/wiki/Functional_reactive_programming), it approaches system design from a different perspective than the previous frameworks. Focusing mainly on continuous time systems, it describes a General Purpose Analog Computer (GPAC) as a set of basic blocks capable of deriving commonly used analog systems. 
 
