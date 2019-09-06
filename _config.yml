@@ -5,6 +5,13 @@ remote_theme: forsyde/forsyde-web-theme
 
 exclude: [scripts, Gemfile.lock, Gemfile, README.md]
 
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+permalink: pretty
+
 ## Useful links
 # shortcuts:
 #  - name: Modeling Tools

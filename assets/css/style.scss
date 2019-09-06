@@ -4,6 +4,10 @@ hide:    true
 
 @import "forsyde-web-theme";
 
+small, .small {
+    font-size: 85%;
+}
+
 .bibtexitem {
   border: none;
 }
@@ -14,4 +18,15 @@ hide:    true
 
 .bibtextable {
   border: none;
+}
+
+p.author {
+  text-indent: 3em;
+  margin: 0 0 0 0;
+  font-style: italic;
+}
+
+div.copyright-notice {
+  text-indent: 2em;
+  margin: -1em 0 -1em 0;
 }
