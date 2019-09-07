@@ -10,7 +10,7 @@ tutorials, API documentations) scattered across the internet and grouping them b
 relevant topics. The purpose is to point to and help the interested reader to reach
 whatever information she might need without much hassle. As a general rule, here you
 find tool-oriented documentation. For associated scientific publications, please check
-our [Publications](publications) page.
+our [Publications](/publications) page.
 
 # Design of Systems
 

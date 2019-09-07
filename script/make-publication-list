@@ -19,7 +19,7 @@ title_verification="Design Validation and Verification"
 ROOTPATH="$( cd "$(dirname "$0")" ; pwd -P )/.."
 
 references=$ROOTPATH/assets/bib/references.bib 
-htmlpath=$ROOTPATH/pages/publications
+htmlpath=$ROOTPATH/_pages/publications
 
 rm -f $htmlpath/*
 
