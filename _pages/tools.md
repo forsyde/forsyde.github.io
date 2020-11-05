@@ -118,4 +118,4 @@ Currently the [ForSyDe-SystemC]({{ page.forsyde-systemc-url }}) framework and as
 <!-- <a href="https://travis-ci.org/forsyde/forsyde-eclipse"><img src="https://travis-ci.org/forsyde/forsyde-eclipse.svg?branch=master" alt="Build status"></a>&emsp; --> 
 <a href="https://github.com/forsyde/ForSyDe-Eclipse"><img src="/assets/images/on-hold.svg" alt="Development status"></a> 
 
-	[ForSyDe-Eclipse]({{ page.forsyde-eclipse-url }}) uses the model-driven engineering solutions provided by the Eclipse Modeling Framework (EMF) such as graphical modeling, model transformation and code generation to implement and facilitate ForSyDe modeling and design flows.
+[ForSyDe-Eclipse]({{ page.forsyde-eclipse-url }}) uses the model-driven engineering solutions provided by the Eclipse Modeling Framework (EMF) such as graphical modeling, model transformation and code generation to implement and facilitate ForSyDe modeling and design flows.
