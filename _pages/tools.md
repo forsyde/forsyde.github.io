@@ -8,6 +8,7 @@ forsyde-atom-url:		https://forsyde.github.io/forsyde-atom
 forsyde-systemc-url:	https://forsyde.github.io/ForSyDe-SystemC
 forsyde-gpac-url:		https://github.com/forsyde/reactive-gpac
 desyde-url:				https://github.com/forsyde/DeSyDe
+forsyde-io-url:         https://github.com/forsyde/forsyde-io
 f2sdf3-url:				https://github.com/forsyde/f2sdf3
 forsyde-deep-url:		https://forsyde.github.io/forsyde-deep
 f2cc-url:				https://github.com/forsyde/f2cc
@@ -22,6 +23,17 @@ While built to support our [publications](publications.html), the ForSyDe tools 
 
 ## Modeling & Simulation
 
+#### [ForSyDe-IO]({{ page.forsyde-io-url }})
+
+[ForSyDe-IO]({{ page.forsyde-io-url }}) is:
+ 1. *A graph model* to represent systems which ForSyDe aims to describe,
+ 2. *An exchange format* to store the model in disk or connect tools in a tool-flow,
+ 3. *Supporting* libraries to represent in-memory the model so that tools can be developed over it.
+ 
+In a broad sense, [ForSyDe-IO]({{ page.forsyde-io-url }}) is the closes equivalent to a ForSyDe
+intermediate representation and can be seen as an alternative and sucessor to
+ForSyDe-Eclipse IR, developed in the context of [ForSyDe-Eclipse]({{ page.forsyde-eclipse-url }}).
+	 
 #### [ForSyDe-Shallow]({{ page.forsyde-shallow-url }})
 
 <a href="https://travis-ci.org/forsyde/forsyde-shallow"><img src="https://travis-ci.org/forsyde/forsyde-shallow.svg?branch=master" alt="Build status"></a>&emsp; 
@@ -106,4 +118,4 @@ Currently the [ForSyDe-SystemC]({{ page.forsyde-systemc-url }}) framework and as
 <!-- <a href="https://travis-ci.org/forsyde/forsyde-eclipse"><img src="https://travis-ci.org/forsyde/forsyde-eclipse.svg?branch=master" alt="Build status"></a>&emsp; --> 
 <a href="https://github.com/forsyde/ForSyDe-Eclipse"><img src="/assets/images/on-hold.svg" alt="Development status"></a> 
 
-[ForSyDe-Eclipse]({{ page.forsyde-eclipse-url }}) uses the model-driven engineering solutions provided by the Eclipse Modeling Framework (EMF) such as graphical modeling, model transformation and code generation to implement and facilitate ForSyDe modeling and design flows.
+	[ForSyDe-Eclipse]({{ page.forsyde-eclipse-url }}) uses the model-driven engineering solutions provided by the Eclipse Modeling Framework (EMF) such as graphical modeling, model transformation and code generation to implement and facilitate ForSyDe modeling and design flows.
