@@ -25,8 +25,8 @@ While built to support our [publications](publications.html), the ForSyDe tools 
 
 #### [ForSyDe-IO]({{ page.forsyde-io-url }})
 
-<a href="https://travis-ci.org/forsyde/forsyde-shallow"><img src="https://travis-ci.org/forsyde/forsyde-io.svg?branch=master" alt="Build status"></a>&emsp;
-<a href="https://github.com/forsyde/forsyde-shallow"><img src="/assets/images/active.svg" alt="Development status"></a> 
+<a href="https://travis-ci.org/forsyde/forsyde-io"><img src="https://travis-ci.org/forsyde/forsyde-io.svg?branch=master" alt="Build status"></a>&emsp;
+<a href="https://github.com/forsyde/forsyde-io"><img src="/assets/images/active.svg" alt="Development status"></a> 
 
 
 [ForSyDe-IO]({{ page.forsyde-io-url }}) is:
