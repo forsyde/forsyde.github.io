@@ -93,15 +93,6 @@ Currently the [ForSyDe-SystemC]({{ page.forsyde-systemc-url }}) framework and as
 [IDeSyDe]({{ page.idesyde-url }}) is current design space exploration (DSE) tool in the ForSyDe ecosystem, centered around the idea of Design Space Identification to enable a generic yet efficient DSE tool. It takes a [ForSyDe IO]({{ page.forsyde-io-url}}) model, including *application models*, *platform models*, *constraints* and *optimization criteria*, and explores the design space, exhaustively or not, to find an (sub)optimal and feasible design. It is implemented as a Python project using different libraries and solvers which have efficient implementations, possibly in other languages such as C. The tool is shipped as a Python library or a binary compiled application.
 
 
-## [Reactive GPAC]({{ page.forsyde-gpac-url }})
-
-> *Activities*: **Modeling, Simulation**
-
-<!-- <a href="https://travis-ci.org/forsyde/forsyde-atom"><img src="https://travis-ci.org/forsyde/forsyde-atom.svg?branch=master" alt="Build status"></a>&emsp; --> 
-<a href="https://github.com/forsyde/reactive-gpac"><img src="/assets/images/on-hold.svg" alt="Development status"></a> 
-
-[Reactive GPAC]({{ page.forsyde-gpac-url }}) is the newest addition to the ForSyDe ecosystem. Inspired from [functional reactive programming](https://en.wikipedia.org/wiki/Functional_reactive_programming), it approaches system design from a different perspective than the previous frameworks. Focusing mainly on continuous time systems, it describes a General Purpose Analog Computer (GPAC) as a set of basic blocks capable of deriving commonly used analog systems. 
-
 
 ## [DeSyDe]({{ page.desyde-url }})
 
@@ -162,4 +153,13 @@ Currently the [ForSyDe-SystemC]({{ page.forsyde-systemc-url }}) framework and as
 
 [ForSyDe-Eclipse]({{ page.forsyde-eclipse-url }}) uses the model-driven engineering solutions provided by the Eclipse Modeling Framework (EMF) such as graphical modeling, model transformation and code generation to implement and facilitate ForSyDe modeling and design flows.
 
+
+## [Reactive GPAC]({{ page.forsyde-gpac-url }})
+
+> *Activities*: **Modeling, Simulation**
+
+<!-- <a href="https://travis-ci.org/forsyde/forsyde-atom"><img src="https://travis-ci.org/forsyde/forsyde-atom.svg?branch=master" alt="Build status"></a>&emsp; --> 
+<a href="https://github.com/forsyde/reactive-gpac"><img src="/assets/images/on-hold.svg" alt="Development status"></a> 
+
+[Reactive GPAC]({{ page.forsyde-gpac-url }}) is the newest addition to the ForSyDe ecosystem. Inspired from [functional reactive programming](https://en.wikipedia.org/wiki/Functional_reactive_programming), it approaches system design from a different perspective than the previous frameworks. Focusing mainly on continuous time systems, it describes a General Purpose Analog Computer (GPAC) as a set of basic blocks capable of deriving commonly used analog systems. 
 
