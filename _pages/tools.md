@@ -8,7 +8,7 @@ forsyde-atom-url:		https://forsyde.github.io/forsyde-atom
 forsyde-systemc-url:	https://forsyde.github.io/ForSyDe-SystemC
 forsyde-gpac-url:		https://github.com/forsyde/reactive-gpac
 desyde-url:				https://github.com/forsyde/DeSyDe
-rdesyde-url:			https://github.com/forsyde/IDeSyDe
+idesyde-url:			https://forsyde.github.io/IDeSyDe
 forsyde-io-url:         https://forsyde.github.io/forsyde-io/
 f2sdf3-url:				https://github.com/forsyde/f2sdf3
 forsyde-deep-url:		https://forsyde.github.io/forsyde-deep
@@ -83,7 +83,7 @@ ForSyDe-Eclipse IR, developed in the context of [ForSyDe-Eclipse]({{ page.forsyd
 Currently the [ForSyDe-SystemC]({{ page.forsyde-systemc-url }}) framework and associated tools are developed under the supervision of [Seyed-Hosein Attarzadeh-Niaki](http://facultymembers.sbu.ac.ir/attarzadeh/) at Shahid Beheshti University, Iran. Information on the ForSyDe web site may be lagging behind current development, so please check Hosein's [homepage](http://facultymembers.sbu.ac.ir/attarzadeh/) for the latest news.
 
 
-## [IDeSyDe]({{ page.desyde-url }})
+## [IDeSyDe]({{ page.idesyde-url }})
 
 > *Activities*: **Design Space Exploration**
 
