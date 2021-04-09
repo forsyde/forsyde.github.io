@@ -88,7 +88,7 @@ Currently the [ForSyDe-SystemC]({{ page.forsyde-systemc-url }}) framework and as
 
 > *Activities*: **Design Space Exploration**
 
-<a href="https://travis-ci.org/forsyde/IDeSyDe"><img src="https://travis-ci.org/forsyde/IDeSyDe.svg?branch=master" alt="Build status"></a>&emsp;
+![Building executables](https://github.com/forsyde/IDeSyDe/actions/workflows/test-build.yml/badge.svg)
 <a href="https://github.com/forsyde/IDeSyDe"><img src="/assets/images/active.svg" alt="Development status"></a> 
 
 [IDeSyDe]({{ page.idesyde-url }}) is current design space exploration (DSE) tool in the ForSyDe ecosystem, centered around the idea of Design Space Identification to enable a generic yet efficient DSE tool. It takes a [ForSyDe IO]({{ page.forsyde-io-url}}) model, including *application models*, *platform models*, *constraints* and *optimization criteria*, and explores the design space, exhaustively or not, to find an (sub)optimal and feasible design. It is implemented as a Python project using different libraries and solvers which have efficient implementations, possibly in other languages such as C. The tool is shipped as a Python library or a binary compiled application.
