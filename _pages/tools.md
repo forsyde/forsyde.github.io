@@ -25,9 +25,9 @@ While built to support our [publications](publications.html), the ForSyDe tools 
 
 #### [ForSyDe-IO]({{ page.forsyde-io-url }})
 
-<a href="https://travis-ci.org/forsyde/forsyde-io"><img src="https://travis-ci.org/forsyde/forsyde-io.svg?branch=master" alt="Build status"></a>&emsp;
+![Python test build](https://github.com/forsyde/forsyde-io/actions/workflows/test-builds-python.yml/badge.svg)
+![Java test build](https://github.com/forsyde/forsyde-io/actions/workflows/test-builds-java.yml/badge.svg)
 <a href="https://github.com/forsyde/forsyde-io"><img src="/assets/images/active.svg" alt="Development status"></a> 
-
 
 [ForSyDe-IO]({{ page.forsyde-io-url }}) is:
  1. *A graph model* to represent systems which ForSyDe aims to describe,
@@ -68,8 +68,6 @@ Currently the [ForSyDe-SystemC]({{ page.forsyde-systemc-url }}) framework and as
 <a href="https://github.com/forsyde/reactive-gpac"><img src="/assets/images/on-hold.svg" alt="Development status"></a> 
 
 [Reactive GPAC]({{ page.forsyde-gpac-url }}) is the newest addition to the ForSyDe ecosystem. Inspired from [functional reactive programming](https://en.wikipedia.org/wiki/Functional_reactive_programming), it approaches system design from a different perspective than the previous frameworks. Focusing mainly on continuous time systems, it describes a General Purpose Analog Computer (GPAC) as a set of basic blocks capable of deriving commonly used analog systems. 
-
-## Transformation & Design Space Exploration
 
 #### [DeSyDe]({{ page.desyde-url }})
 
