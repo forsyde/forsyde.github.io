@@ -92,11 +92,10 @@ Currently the [ForSyDe-SystemC]({{ page.forsyde-systemc-url }}) framework and as
 > *Activities*: **Design Space Exploration**
 
 ![Building executables](https://github.com/forsyde/IDeSyDe/actions/workflows/test-build.yml/badge.svg)
-[![PyPi IDeSyDe](https://badgen.net/pypi/v/idesyde?icon=pypi)](https://pypi.org/project/idesyde/)
 [![GitHub IDeSyDe](https://badgen.net/github/release/forsyde/IDeSyDe?icon=github)](https://github.com/forsyde/IDeSyDe/releases)
 <a href="https://github.com/forsyde/IDeSyDe"><img src="/assets/images/active.svg" alt="Development status"></a> 
 
-[IDeSyDe]({{ page.idesyde-url }}) is current design space exploration (DSE) tool in the ForSyDe ecosystem, centered around the idea of Design Space Identification to enable a generic yet efficient DSE tool. It takes a [ForSyDe IO]({{ page.forsyde-io-url}}) model, including *application models*, *platform models*, *constraints* and *optimization criteria*, and explores the design space, exhaustively or not, to find an (sub)optimal and feasible design. It is implemented as a Python project using different libraries and solvers which have efficient implementations, possibly in other languages such as C. The tool is shipped as a Python library or a binary compiled application.
+[IDeSyDe]({{ page.idesyde-url }}) is current design space exploration (DSE) tool in the ForSyDe ecosystem, centered around the idea of Design Space Identification to enable a generic yet efficient DSE tool. It takes a [ForSyDe IO]({{ page.forsyde-io-url}}) model, including *application models*, *platform models*, *constraints* and *optimization criteria*, and explores the design space, exhaustively or not, to find an (sub)optimal and feasible design. The main project is implemented in Scala, but it uses different libraries and solvers which have efficient implementations, possibly in other languages such as C. The tool is shipped as a [JVM application](https://github.com/forsyde/IDeSyDe/releases).
 
 
 ## [DeSyDe]({{ page.desyde-url }})
