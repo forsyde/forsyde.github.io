@@ -16,8 +16,10 @@ ForSyDe is a methodology with a formal basis for modeling and design of heteroge
  * System design must start at a high level of abstraction. The designer shall focus on functionality, and low-level implementation details shall not be an issue at the design stage;
  * Design methodology must give a solid base for the incorporation of formal methods. This means that verification must be a first class citizen _from the start_;
  * Abstraction gap between specification and implementation must be bridged by formal refinement techniques.
- 
-Visit the [Projects](tools.html) and [Publications](publications.html) pages for a glimpse of our activities.
+
+
+These goals are achieved in practice through an ecosystem of [tools](tools) which are developed in line with scientific [publications](publications.html).
+News about ForSyDe realted research and development can be seen in the [news](news) webpage as well as in the [GitHub organization page](https://github.com/forsyde).
  
 ## Our Name
 
@@ -71,4 +73,5 @@ Visit the [Tools](tools) page for our current portfolio of tools supporting this
 * [ForSyDe-Deep](forsyde-deep): a deep-embedded EDSL which can synthesize a subset of ForSyDe models down to VHDL.
 * [ForSyDe-Atom](forsyde-atom): a shallow-EDSL which extends the ForSyDe modeling scope with concepts like "layers" and "atoms".
 * [ForSyDe-SystemC](ForSyDe-SystemC): is the SystemC embedding of ForSyDe, which uses the host language for both simulation, structure parsing and C code extraction.
-* [DeSyDe](https://github.com/forsyde/DeSyDe) is a design space exploration tool based on constraint programming which is the central component of the ForSyDe design flow.
+* [DeSyDe](https://github.com/forsyde/DeSyDe) the previous design space exploration tool in the ForSyDe design flow. It is based on constraint programming and provides certificates of feasibility and optimality for a a design.
+* [DeSyDe](https://github.com/forsyde/IDeSyDe) the current design space exploration tool in ForSyDe design flow. It is based on the concept of design space identification in order to systematically combine and extend different design space exploration scenarios without loss of efficiency.
