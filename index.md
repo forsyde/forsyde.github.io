@@ -17,7 +17,6 @@ ForSyDe is a methodology with a formal basis for modeling and design of heteroge
  * Design methodology must give a solid base for the incorporation of formal methods. This means that verification must be a first class citizen _from the start_;
  * Abstraction gap between specification and implementation must be bridged by formal refinement techniques.
 
-
 These goals are achieved in practice through an ecosystem of [tools](tools) which are developed in line with scientific [publications](publications.html).
 News about ForSyDe realted research and development can be seen in the [news](news) webpage as well as in the [GitHub organization page](https://github.com/forsyde).
  
