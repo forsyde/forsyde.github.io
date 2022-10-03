@@ -72,5 +72,5 @@ Visit the [Tools](tools) page for our current portfolio of tools supporting this
 * [ForSyDe-Deep](forsyde-deep): a deep-embedded EDSL which can synthesize a subset of ForSyDe models down to VHDL.
 * [ForSyDe-Atom](forsyde-atom): a shallow-EDSL which extends the ForSyDe modeling scope with concepts like "layers" and "atoms".
 * [ForSyDe-SystemC](ForSyDe-SystemC): is the SystemC embedding of ForSyDe, which uses the host language for both simulation, structure parsing and C code extraction.
-* [DeSyDe](https://github.com/forsyde/DeSyDe) the previous design space exploration tool in the ForSyDe design flow. It is based on constraint programming and provides certificates of feasibility and optimality for a a design.
-* [DeSyDe](https://github.com/forsyde/IDeSyDe) the current design space exploration tool in ForSyDe design flow. It is based on the concept of design space identification in order to systematically combine and extend different design space exploration scenarios without loss of efficiency.
+* [DeSyDe](https://github.com/forsyde/DeSyDe): the previous design space exploration tool in the ForSyDe design flow. It is based on constraint programming and provides certificates of feasibility and optimality for a a design.
+* [IDeSyDe](https://github.com/forsyde/IDeSyDe): the current design space exploration tool in ForSyDe design flow. It is based on the concept of design space identification in order to systematically combine and extend different design space exploration scenarios without sacrificing exploration performance.
