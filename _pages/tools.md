@@ -92,7 +92,7 @@ Currently the [ForSyDe-SystemC]({{ page.forsyde-systemc-url }}) framework and as
 > *Activities*: **Design Space Exploration**
 
 ![Building executables](https://github.com/forsyde/IDeSyDe/actions/workflows/test-build.yml/badge.svg)
-![Solving known case studies](https://github.com/forsyde/IDeSyDe/actions/workflows/test-case-studies/badge.svg)
+![Solving known case studies](https://github.com/forsyde/IDeSyDe/actions/workflows/test-case-studies.yml/badge.svg)
 [![GitHub IDeSyDe](https://badgen.net/github/release/forsyde/IDeSyDe?icon=github)](https://github.com/forsyde/IDeSyDe/releases)
 <a href="https://github.com/forsyde/IDeSyDe"><img src="/assets/images/active.svg" alt="Development status"></a> 
 
