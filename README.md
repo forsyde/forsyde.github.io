@@ -37,10 +37,7 @@ CSS styles which are active on this site alone (they are ignored on project site
 
 ### Updating publications page
 
-The source Bib file is found in `assets/bib/publications.bib`. Modify it accordingly, and then run the script 
-
-    cd scripts
-	./make-publication-list
+The source Bib file is found in `assets/bib/publications.bib`. Modify it accordingly.
 	
 ## Verifying if the site builds
 
