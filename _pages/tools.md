@@ -45,13 +45,9 @@ Like its parent project, it is implemented as a shallow-embedded domain specific
 [![GitHub ForSyDe IO](https://badgen.net/github/release/forsyde/forsyde-io?icon=github)](https://github.com/forsyde/forsyde-io/releases)
 <a href="https://github.com/forsyde/forsyde-io"><img src="/assets/images/active.svg" alt="Development status"></a> 
 
-[ForSyDe-IO]({{ page.forsyde-io-url }}) is:
- 1. *A graph model* to represent systems which ForSyDe aims to describe,
- 2. *An exchange format* to store the model in disk or connect tools in a tool-flow,
- 3. *Supporting* libraries to represent in-memory the model so that tools can be developed over it.
- 
-In a broad sense, [ForSyDe-IO]({{ page.forsyde-io-url }}) is the closes equivalent to a ForSyDe
-intermediate representation and can be seen as an alternative and sucessor to
+[ForSyDe-IO]({{ page.forsyde-io-url }}) is ForSyDe's system-level exchangeable model specification and supporting libraries.
+
+In a broad sense, [ForSyDe-IO]({{ page.forsyde-io-url }}) is the closest to a sucessor of
 ForSyDe-Eclipse IR, developed in the context of [ForSyDe-Eclipse]({{ page.forsyde-eclipse-url }}).
 
 
