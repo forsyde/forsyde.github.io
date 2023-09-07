@@ -42,6 +42,7 @@ Like its parent project, it is implemented as a shallow-embedded domain specific
 ![Java test build](https://github.com/forsyde/forsyde-io/actions/workflows/test-builds-java.yml/badge.svg)
 [![PyPi ForSyDe IO](https://badgen.net/pypi/v/forsyde-io-python?icon=pypi)](https://pypi.org/project/forsyde-io-python/)
 [![Maven Central](https://badgen.net/maven/v/maven-central/io.github.forsyde/forsyde-io-java-core?icon=maven)](https://search.maven.org/artifact/io.github.forsyde/forsyde-io-java-core)
+[![JitPack](https://jitpack.io/v/forsyde/forsyde-io.svg)](https://jitpack.io/#forsyde/forsyde-io)
 [![GitHub ForSyDe IO](https://badgen.net/github/release/forsyde/forsyde-io?icon=github)](https://github.com/forsyde/forsyde-io/releases)
 <a href="https://github.com/forsyde/forsyde-io"><img src="/assets/images/active.svg" alt="Development status"></a> 
 
