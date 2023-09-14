@@ -28,7 +28,7 @@ While built to support our [publications](publications.html), the ForSyDe tools 
 > *Activities*: **Modeling, Simulation**
 
 <a href="https://travis-ci.org/forsyde/forsyde-atom"><img src="https://travis-ci.org/forsyde/forsyde-atom.svg?branch=master" alt="Build status"></a>&emsp; 
-<a href="https://github.com/forsyde/forsyde-atom"><img src="/assets/images/active.svg" alt="Development status"></a> 
+<a href="https://github.com/forsyde/f2dot"><img src="/assets/images/on-hold.svg" alt="Development status"></a> 
 
 [ForSyDe-Atom]({{ page.forsyde-atom-url }}) is a spin-off from [ForSyDe-Shallow]({{ page.forsyde-shallow-url }}) which further explores the power of functional programming as a system design paradigm. Apart from timing behavior, it enables designers to capture other extra-functional properties (e.g. structured parallelism, control behavior) by enforcing a design methodology of systems as [*interacting layers*](https://forsyde.github.io/forsyde-latex/assets/svg/example-pictures-layered.svg). <!-- Each layer is an environment which captures the semantics of an extra-functional concern as a set of indivisible building blocks called *atoms*. Furthermore, it provides libraries of common building blocks in cyber-physical system design blocks, described as compositional *patterns* of atoms. -->
 Like its parent project, it is implemented as a shallow-embedded domain specific language (EDSL) in the functional programming language [Haskell](https://www.haskell.org/) and is shipped as a set of Haskell [libraries](https://github.com/forsyde/forsyde-atom) and [examples](https://github.com/forsyde/forsyde-atom-examples).
