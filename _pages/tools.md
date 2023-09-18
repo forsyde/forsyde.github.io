@@ -38,19 +38,14 @@ Like its parent project, it is implemented as a shallow-embedded domain specific
 
 > *Activities*: **Modeling, Design Space Exploration, Synthesis**
 
-![Python test build](https://github.com/forsyde/forsyde-io/actions/workflows/test-builds-python.yml/badge.svg)
+<!-- ![Python test build](https://github.com/forsyde/forsyde-io/actions/workflows/test-builds-python.yml/badge.svg) -->
 ![Java test build](https://github.com/forsyde/forsyde-io/actions/workflows/test-builds-java.yml/badge.svg)
-[![PyPi ForSyDe IO](https://badgen.net/pypi/v/forsyde-io-python?icon=pypi)](https://pypi.org/project/forsyde-io-python/)
-[![Maven Central](https://badgen.net/maven/v/maven-central/io.github.forsyde/forsyde-io-java-core?icon=maven)](https://search.maven.org/artifact/io.github.forsyde/forsyde-io-java-core)
+<!-- [![PyPi ForSyDe IO](https://badgen.net/pypi/v/forsyde-io-python?icon=pypi)](https://pypi.org/project/forsyde-io-python/) -->
 [![JitPack](https://jitpack.io/v/forsyde/forsyde-io.svg)](https://jitpack.io/#forsyde/forsyde-io)
 [![GitHub ForSyDe IO](https://badgen.net/github/release/forsyde/forsyde-io?icon=github)](https://github.com/forsyde/forsyde-io/releases)
 <a href="https://github.com/forsyde/forsyde-io"><img src="/assets/images/active.svg" alt="Development status"></a> 
 
-[ForSyDe-IO]({{ page.forsyde-io-url }}) is ForSyDe's system-level exchangeable model specification and supporting libraries.
-
-In a broad sense, [ForSyDe-IO]({{ page.forsyde-io-url }}) is the closest to a sucessor of
-ForSyDe-Eclipse IR, developed in the context of [ForSyDe-Eclipse]({{ page.forsyde-eclipse-url }}).
-
+[ForSyDe-IO]({{ page.forsyde-io-url }}) is ForSyDe's system-level exchangeable model specification and its supporting libraries.
 
 ## [ForSyDe-LaTeX]({{ page.forsyde-latex-url }})
 
@@ -94,7 +89,7 @@ Currently the [ForSyDe-SystemC]({{ page.forsyde-systemc-url }}) framework and as
 <a href="https://github.com/forsyde/IDeSyDe"><img src="/assets/images/active.svg" alt="Development status"></a> 
 
 [IDeSyDe]({{ page.idesyde-url }}) is design space exploration (DSE) framework centered around the design space identification approach.
-The default distribution is a collection of standalone binaries and Java archives enabling exploration of [ForSyDe IO]({{ page.forsyde-io-url}}) models.
+<!-- The default distribution is a collection of standalone binaries and Java archives enabling exploration of [ForSyDe IO]({{ page.forsyde-io-url}}) models. -->
 
 ## [DeSyDe]({{ page.desyde-url }})
 
