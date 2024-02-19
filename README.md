@@ -67,3 +67,4 @@ Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the t
 ## Updating ForSyDe tool and library pages
 
 To update the documentation of individual ForSyDe repositories of the ForSyDe organisation like [forsyde-shallow](https://github.com/forsyde/forsyde-shallow), checkout the corresponding repository and then checkout the branch `gh-pages`. In this branch you can modify the documentation by modifying the web pages under `pages`. The documentation will be updated on the local server when an updated file is saved, and on the web server when the branch `gh-pages` is pushed. 
+Some individual repositories like [ForSyDe IO](https://github.com/forsyde/forsyde-io) and [IDeSyDe](https://github.com/forsyde/IDeSyDe) do not have a `gh-pages` branch and instead directly use a folder `docs` in the `master`/`main` branch. In these cases, the given instructions for the local Jekyll server apply but within this `docs` folder.
